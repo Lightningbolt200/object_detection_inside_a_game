@@ -2,7 +2,7 @@
 
 This program will help you find the objects which you want to find after creating a cascade.xml with the dataset of pictures which is provided.
 
-##Method##
+## Method ##
 Here we atleast 100 pictures of dataset (more the merrier) with the object which you want to detect present in it.
 Create another folder containing twice the number of dataset in which the required object is not present (twice here is preffered but it should be not less than the first dataset).
 Download the latest version of 3.4 opencv library from here https://sourceforge.net/projects/opencvlibrary/files/.
@@ -21,5 +21,5 @@ After this process we can find the cascade.xml in the cascade folder.
 Copy cascade.xml to the location where the python files are present.
 Also Change the Window name inside the python code.
 
-##Final Result##
+## Final Result ##
 ![](images/final.jpg)
