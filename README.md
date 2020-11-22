@@ -4,8 +4,14 @@ This program will help you find the objects which you want to find after creatin
 
 ## Method ##
 Here we atleast 100 pictures of dataset (more the merrier) with the object which you want to detect present in it.
+
+
 Create another folder containing twice the number of dataset in which the required object is not present (twice here is preffered but it should be not less than the first dataset).
+
+
 Download the latest version of 3.4 opencv library from here https://sourceforge.net/projects/opencvlibrary/files/.
+
+
 Download the .exe, after downloading it has prebuilt zip extractor, specify the path and wait until it get extracted.
 Then goto the following path /opencv/build/x64/vc15/bin/ .
 Then open a cmd, cd to that directory and type the following command "opencv_annotation.exe --annotations=pos.txt" --images=path_of_the_dataset_with_the_required_object/" 
